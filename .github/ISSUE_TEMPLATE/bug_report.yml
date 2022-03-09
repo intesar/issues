@@ -31,9 +31,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        How we handle bugs:
-Duplicate, wont-fix, invalid tagged bugs are closed automatically.
-Fixed and released bugs are closed automatically.
-Fixed bugs go live as part of our weekend releases.
-Blockers bugs go live as part of nightly releases.
-To escalate an issue, please reach us at our support email handle.
+        ### How we handle bugs: 
+        - Duplicate, wont-fix, invalid tagged bugs are closed automatically.
+        - Fixed and released bugs are closed automatically.
+        - Fixed bugs go live as part of our weekend releases.
+        - Blockers bugs go live as part of nightly releases.
+        - To escalate an issue, please reach us at our support email handle.
