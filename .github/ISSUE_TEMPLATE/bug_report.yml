@@ -29,14 +29,14 @@ body:
     id: security-best-practices
     attributes:
       value: |
-        ## Security Best Practices:
+        #### Security Best Practices:
         - Never share credentials, privacy information, and organization/project sensitive data.
       
   - type: markdown
     id: how-we-handle-bugs
     attributes:
       value: |
-        ## How we handle bugs: 
+        ##### How we handle bugs: 
         - Duplicate, wont-fix, invalid tagged bugs are closed automatically.
         - Fixed and released bugs are closed automatically.
         - Fixed bugs go live as part of our weekend releases.
