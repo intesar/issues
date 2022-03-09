@@ -24,6 +24,14 @@ body:
       value: "Write a brief report..."
     validations:
       required: true
+
+  - type: markdown
+    id: security-best-practices
+    attributes:
+      value: |
+        ## Security Best Practices:
+        - Never share credentials, privacy information, and organization/project sensitive data.
+      
   - type: markdown
     id: how-we-handle-bugs
     attributes:
@@ -35,9 +43,3 @@ body:
         - Blockers bugs go live as part of nightly releases.
         - To escalate an issue, please reach us at our support email handle.
 
-  - type: markdown
-    id: how-we-handle-bugs
-    attributes:
-      value: |
-        ## Security Best Practices:
-        - Never share credentials, privacy information, and organization/project sensitive data.
