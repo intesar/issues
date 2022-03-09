@@ -27,7 +27,6 @@ body:
   - type: markdown
     id: how-we-handle-bugs
     attributes:
-      label: How we handle bugs.
       value: |
         ### How we handle bugs: 
         - Duplicate, wont-fix, invalid tagged bugs are closed automatically.
