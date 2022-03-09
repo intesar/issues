@@ -21,7 +21,7 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: ""
+      value: "Write a brief report..."
     validations:
       required: true
   - type: markdown
