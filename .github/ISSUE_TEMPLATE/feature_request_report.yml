@@ -37,7 +37,7 @@ body:
     id: how-we-handle-features
     attributes:
       value: |
-        ## How we handle features: 
+        ##### How we handle features: 
         - Duplicate, wont-fix, invalid tagged submissions are closed automatically.
         - Implemented and released features are closed automatically.
         - Implemented features go live as part of our weekend.
