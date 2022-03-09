@@ -5,10 +5,6 @@ labels: ["bug"]
 assignees:
   - intesar
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: dropdown
     id: severity
     attributes:
@@ -29,7 +25,9 @@ body:
     validations:
       required: true
   - type: markdown
+    id: how-we-handle-bugs
     attributes:
+      label: How we handle bugs.
       value: |
         ### How we handle bugs: 
         - Duplicate, wont-fix, invalid tagged bugs are closed automatically.
