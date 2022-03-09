@@ -34,3 +34,10 @@ body:
         - Fixed bugs go live as part of our weekend releases.
         - Blockers bugs go live as part of nightly releases.
         - To escalate an issue, please reach us at our support email handle.
+
+  - type: markdown
+    id: how-we-handle-bugs
+    attributes:
+      value: |
+        ## Security Best Practices:
+        - Never share credentials, privacy information, and organization/project sensitive data.
