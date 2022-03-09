@@ -1,7 +1,7 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage", "security-vulnerability"]
+labels: ["bug"]
 assignees:
   - intesar
 body:
@@ -9,14 +9,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -27,36 +19,21 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: severity
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Severity
+      description: How severe is this issue?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - Blocker
+        - Non-Blocker
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: markdown
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      value: |
+        How we handle bugs:
+Duplicate, wont-fix, invalid tagged bugs are closed automatically.
+Fixed and released bugs are closed automatically.
+Fixed bugs go live as part of our weekend releases.
+Blockers bugs go live as part of nightly releases.
+To escalate an issue, please reach us at our support email handle.
