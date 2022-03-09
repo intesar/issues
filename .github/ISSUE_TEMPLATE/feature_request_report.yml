@@ -1,6 +1,6 @@
 name: Feature Request
 description: File a feature request report
-title: "[enhancement]: "
+title: "[Feature]: "
 labels: ["enhancement"]
 assignees:
   - intesar
