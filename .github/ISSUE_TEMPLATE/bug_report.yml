@@ -21,14 +21,14 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: ""
     validations:
       required: true
   - type: markdown
     id: how-we-handle-bugs
     attributes:
       value: |
-        ### How we handle bugs: 
+        ## How we handle bugs: 
         - Duplicate, wont-fix, invalid tagged bugs are closed automatically.
         - Fixed and released bugs are closed automatically.
         - Fixed bugs go live as part of our weekend releases.
